@@ -3,6 +3,8 @@
 ### VISÃO: Identifica o objeto e informa o sistema
 PRÉ-PROCESSAMENTO
 OUTPUT-CONTROLE
+OpenCV
+Webcam c270 60 fps Logitech
 ### CONTROLE: a partir do resultado da visão, determina a posição final dos atuadores e garante o funcionamento suave do mecanismo 
 PID
 ### MECÂNICA: Com a localização do objeto, a câmera deve se reposicionar.
