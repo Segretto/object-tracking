@@ -39,4 +39,9 @@
 ### 3.1 Open Source
 ### 3.2 Cost
 ### 3.3 Performance  
-### 3.4 Real time  
+### 3.4 Real time
+
+## 4. Interfaces
+### 4.1 Hardware
+### 4.2 Mechanical
+### 4.3 User Interface
