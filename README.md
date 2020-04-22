@@ -1,17 +1,42 @@
-# object-tracking
-## Requerimentos Funcionais
-### Visão: Identifica o objeto e informa o sistema
-Pré-processamento  
-Output controle  
-OpenCv  
-WebCam Logitech c270 30fps  
-### Controle: a partir do resultado da visão, determina a posição final dos atuadores e garante o funcionamento suave do mecanismo 
-PID  
-### Mecânica: Com a localização do objeto, a câmera deve se reposicionar.
-Atuador rotacional no eixo vertical  
-Atuador rotacional no eixo horizontal, no fim do braço do primeiro atuador  
-## Requerimentos Não-funcionais
-Open Source  
-Baixo custo  
-Espaço útil  
-Tempo real  
+# Object Tracking
+## 1. Overall Description
+### 1.1 Objective
+
+### 1.2 Operating Environment
+
+### 1.3 Dependecies
+
+### 1.4 Assumptions
+
+## 2. Features
+
+### 2.1 Vision: Indentifies the edges and calculate object geometric center position and velocity
+#### 2.1.1 Description:
+
+#### 2.1.2 Functional Requirements
+  Pre-processing  
+  Output control  
+  OpenCv  
+  WebCam Logitech c270 30fps  
+
+### 2.2 Control System 
+ 
+#### 2.2.1 Description:
+  Determines the next desired position of the camera using the vision feature output
+
+#### 2.2.2 Functional Requirements
+
+### 2.3 Mechanics
+
+#### 2.3.1 Description:
+  Mechanism for camera posiotining.  
+
+#### 2.3.2 Functional Requirements
+  Vertical rotational actuator  
+  Horizontal rotational actuator
+
+## 3. System Qualities
+### 3.1 Open Source
+### 3.2 Cost
+### 3.3 Performance  
+### 3.4 Real time  
