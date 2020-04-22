@@ -37,14 +37,13 @@
 
 ## 3. System Qualities
 ### 3.1 Open Source
-  O código-fonte deverá estar disponível para download e contribuição pública, de acordo com a MIT License.
+  The source code must be available for download and public contribution, according to the MIT License.
 ### 3.2 Cost
-  Os materiais deverão custar o mínimo conveniente para cumprirem suas funções, isto é, dentre as opções viáveis, possuir o menor custo.
+  The materials must cost the least convenient amount, that is, among the viable options, the one which costs less. 
 ### 3.3 Performance
-  O código de computação visual deverá rodar sem depender de recursos computacionais alheios à beaglebone; a câmera deverá ser capaz de seguir o objeto sem perdê-lo de vista, considerando velocidades moderadas (considerando que a bolinha não percorra mais da metade do fov da câmera em 1 frame)
+  The computer vision code must run without dependencies on external computing resources relative to the beaglebone; the camera must be capable of tracking the object without losing it, considering moderate velocity (if the ball doesn't get further than half the FOV of the camera in one frame).
 ### 3.4 Real time
-  O programa deverá enviar comandos ao motor em intervalos fixos que se aproximem ou superem o fps da câmera, respeitando a capacidade dos métodos de processamento de imagem.
-  
+  The program must send commands to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used.  
 ## 4. Interfaces
 ### 4.1 Hardware
 ### 4.2 Mechanical
