@@ -10,9 +10,9 @@
 
 ## 2. Features
 
-### 2.1 Vision: Indentifies the edges and calculate object geometric center position and velocity
+### 2.1 Vision
 #### 2.1.1 Description:
-
+  Indentifies the edges and calculate object geometric center position and velocity
 #### 2.1.2 Functional Requirements
   Pre-processing  
   Output control  
