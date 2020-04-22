@@ -1,4 +1,5 @@
 # Object Tracking
+---
 ## 1. Overall Description
 ### 1.1 Objective
 : Track colored objects utilizing computer vision and camera positioning control within an embedded system.
@@ -31,6 +32,7 @@
 - The object will be moved by a person whom will apply different acceleration within human capacity
 
 ## 2. Features
+---
 ### 2.1 Vision Module [^1]
 #### 2.1.1 Description:
 An image processing algorithm that will extract information about the object's shape, color, position and speed.
@@ -76,6 +78,7 @@ It will also display controller parameters input slots for real time controller 
 
 
 ## 3. System Qualities
+---
 ### 3.1 Open Source  
 The source code must be available for download and public contribution, under the MIT License.
 
@@ -89,6 +92,7 @@ The computer vision code must run without dependencies on external computing res
 The program must send commands to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used.  
 
 ## 4. Interfaces
+---
 ### 4.1 Hardware
 ### 4.2 User Interface
 
