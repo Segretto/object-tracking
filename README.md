@@ -55,14 +55,33 @@ Horizontal rotational actuator
 
 ## 3. System Qualities
 ### 3.1 Open Source
+<<<<<<< HEAD
   
+||||||| merged common ancestors
+=======
+  The source code must be available for download and public contribution, according to the MIT License.
+>>>>>>> eb32bafeb89f90853d5304b37007dbe184f51680
 ### 3.2 Cost
+<<<<<<< HEAD
  
 ### 3.3 Performance
   
+||||||| merged common ancestors
+### 3.3 Performance  
+=======
+  The materials must cost the least convenient amount, that is, among the viable options, the one which costs less. 
+### 3.3 Performance
+  The computer vision code must run without dependencies on external computing resources relative to the beaglebone; the camera must be capable of tracking the object without losing it, considering moderate velocity (if the ball doesn't get further than half the FOV of the camera in one frame).
+>>>>>>> eb32bafeb89f90853d5304b37007dbe184f51680
 ### 3.4 Real time
+<<<<<<< HEAD
   
   
+||||||| merged common ancestors
+
+=======
+  The program must send commands to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used.  
+>>>>>>> eb32bafeb89f90853d5304b37007dbe184f51680
 ## 4. Interfaces
 ### 4.1 Hardware
 ### 4.2 Mechanical
