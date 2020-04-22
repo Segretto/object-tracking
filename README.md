@@ -42,10 +42,14 @@ Beaglebone
 
 ## 3. System Qualities
 ### 3.1 Open Source
+  O código-fonte deverá estar disponível para download e contribuição pública, de acordo com a MIT License.
 ### 3.2 Cost
-### 3.3 Performance  
+  Os materiais deverão custar o mínimo conveniente para cumprirem suas funções, isto é, dentre as opções viáveis, possuir o menor custo.
+### 3.3 Performance
+  O código de computação visual deverá rodar sem depender de recursos computacionais alheios à beaglebone; a câmera deverá ser capaz de seguir o objeto sem perdê-lo de vista, considerando velocidades moderadas (considerando que a bolinha não percorra mais da metade do fov da câmera em 1 frame)
 ### 3.4 Real time
-
+  O programa deverá enviar comandos ao motor em intervalos fixos que se aproximem ou superem o fps da câmera, respeitando a capacidade dos métodos de processamento de imagem.
+  
 ## 4. Interfaces
 ### 4.1 Hardware
 ### 4.2 Mechanical
