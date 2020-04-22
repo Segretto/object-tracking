@@ -2,7 +2,7 @@
 ---
 ## 1. Overall Description
 ### 1.1 Objective
-: Track colored objects utilizing computer vision and camera positioning control within an embedded system.
+> Track colored objects utilizing computer vision and camera positioning control within an embedded system.
 
 ### 1.2 Tools and Environment
 * Linux Angstron or Ubuntu
@@ -31,8 +31,8 @@
 - The object trajectory will be within a reasonable distance from the camera
 - The object will be moved by a person whom will apply different acceleration within human capacity
 
-## 2. Features
 ---
+## 2. Features
 ### 2.1 Vision Module [^1]
 #### 2.1.1 Description:
 An image processing algorithm that will extract information about the object's shape, color, position and speed.
@@ -63,8 +63,8 @@ This module will receive the object center position and velocity from the vision
 A 2 DoF mechanism actuated by two DC motors coupled in a rigid rod mechanism, with a camera attached at one of it´s end.  
 
 #### 2.3.2 Functional Requirements
->**FR 3.1** &emsp;Vertical rotational actuation  
->**FR 3.2** &emsp;Horizontal rotational actuation
+>**FR 3.1** &emsp;Vertical rotational actuation. 
+>**FR 3.2** &emsp;Horizontal rotational actuation.
 
 ### 2.4 User Interface **TBD** [^4]
 #### 2.4.1 Description:
@@ -72,13 +72,14 @@ An Android application which will display performance metrics of the system in r
 It will also display controller parameters input slots for real time controller configuration.
 
 #### 2.4.2 Functional Requirements
->**FR 4.1** &emsp;Open communication link with the beaglebone. (TCP, Bluetooth,...) **TBD**
->**FR 4.2** &emsp;Receive performance metrics from the beaglebone MC
->**FR 4.3** &emsp;Send sets of controller parameters inputs defined by the user
+>**FR 4.1** &emsp;Open communication link with the beaglebone (TCP, Bluetooth,...). **TBD**
 
+>**FR 4.2** &emsp;Receive performance metrics from the beaglebone MC.
 
-## 3. System Qualities
+>**FR 4.3** &emsp;Send sets of controller parameters inputs defined by the user.
+
 ---
+## 3. System Qualities
 ### 3.1 Open Source  
 The source code must be available for download and public contribution, under the MIT License.
 
@@ -91,14 +92,14 @@ The computer vision code must run without dependencies on external computing res
 ### 3.4 Real time    
 The program must send commands to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used.  
 
-## 4. Interfaces
 ---
+## 4. Interfaces
 ### 4.1 Hardware
 ### 4.2 User Interface
 
 *[TBD]: To Be Defined
 
-[^1]: Thiago Henrique Segreto Silva 9311598;
+[^1]: Thiago Henrique Segreto Silva 9311598
 [^2]: Rodrigo
 [^3]: Matheus
 [^4]: Marcelo
