@@ -1,18 +1,23 @@
 # Object Tracking
 ## 1. Overall Description
 ### 1.1 Objective
+*** Track colored objects utilizing computer vision and camera positioning control within an embedded system.
 
 ### 1.2 Operating Environment
+Linux Ubuntu
+Beaglebone
+
 
 ### 1.3 Dependecies
 
 ### 1.4 Assumptions
-
+  - 
 ## 2. Features
 
 ### 2.1 Vision
 #### 2.1.1 Description:
   Indentifies the edges and calculate object geometric center position and velocity
+
 #### 2.1.2 Functional Requirements
   Pre-processing  
   Output control  
