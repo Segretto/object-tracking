@@ -9,6 +9,7 @@
 * Beaglebone Black
 * WebCam Logitech c270 30fps
 * DC Motor **TBD**
+* Mechanical Structure **TBD**
 * Encoder **TBD**
 * EPOS Controller
 
@@ -92,10 +93,13 @@ The source code must be available for download and public contribution, under th
 The materials must cost the least convenient amount, that is, among all the viable systems, the one which costs less with the minimum required performance. 
 
 ### 3.3 Performance
-The computer vision code must run without dependencies on external computing resources relative to the beaglebone. The camera must be capable of tracking the object without losing it, considering a moderate velocity (if the ball doesn't get further than half of the FoV of the camera in one frame).
+The computer vision code must run without dependencies on external computing resources relative to the beaglebone. The camera must be capable of tracking the object without losing it, considering a moderate velocity (if the object doesn't get further than half of the FoV of the camera in one frame).
 
 ### 3.4 Real time    
 The program must send the updated positions to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used. It also must communicate with the android device and change the PID parameters during duty.   
+
+### 3.5 Field of view
+The field of view will be delimited by the mechanical structure and the environment itself, such as the support surface. To an object be identified, it must enter the camera's field of view and stay as already described.
 
 ---
 ## 4. Interfaces
@@ -107,6 +111,6 @@ The program must send the updated positions to the motor in fixed time intervals
 *[TBD]: To Be Defined
 
 1. Thiago Segreto
-2. Rodrigo Reis
-3. Matheus Henrique
-4. Marcelo Filho
+2. Rodrigo Reis Arrais          9393127
+3. Matheus Henrique de Oliveira 9805185 
+4. Marcelo Spedine Moreno Filho 9760206
