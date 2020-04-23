@@ -23,7 +23,7 @@
 
 #### 1.3.2 User Interface
 * TotalCross
-* Java
+* Java 8
 * Maven
 
 ### 1.4 Assumptions
@@ -101,7 +101,7 @@ The program must send the updated positions to the motor in fixed time intervals
 ## 4. Interfaces
 ### 4.1 Hardware
 - Logitech -- Beaglebone: USB 3.0
-- Beaglebone -- EPOT: CNU
+- Beaglebone -- EPOS: CNU
 - Beaglebone -- Android Device: **TBD**
 ---
 *[TBD]: To Be Defined
