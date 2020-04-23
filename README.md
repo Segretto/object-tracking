@@ -18,7 +18,7 @@
 * Python
 * GTK
 * CMake
-* ARM Compiler
+* ARM Embedded GCC
 * Numpy
 
 #### 1.3.2 User Interface
@@ -38,7 +38,7 @@
 An image processing algorithm that will extract information about the object's shape, color, position and speed.
 
 #### 2.1.2 Functional Requirements
->**FR 1.1** &emsp;Use camera parameterization functions related to the frame capture;
+>**FR 1.1** &emsp;Use camera parameterization functions related to the frame capturing.
 
 >**FR 1.2** &emsp;Apply detection (trigger), pre-processing and threshold functions to analyze a specific image area according to color and shape. 
 
@@ -63,7 +63,8 @@ This module will receive the object center position and velocity from the vision
 A 2 DoF mechanism actuated by two DC motors coupled in a rigid rod mechanism, with a camera attached at one of it´s end.  
 
 #### 2.3.2 Functional Requirements
->**FR 3.1** &emsp;Vertical rotational actuation. 
+>**FR 3.1** &emsp;Vertical rotational actuation.
+
 >**FR 3.2** &emsp;Horizontal rotational actuation.
 
 ### 2.4 User Interface **TBD** [^4]
@@ -84,10 +85,10 @@ It will also display controller parameters input slots for real time controller 
 The source code must be available for download and public contribution, under the MIT License.
 
 ### 3.2 Cost
-The materials must cost the least convenient amount, that is, among the viable options, the one which costs less. 
+The materials must cost the least convenient amount, that is, among all the viable systems, the one which costs less with the minimum required performance. 
 
 ### 3.3 Performance
-The computer vision code must run without dependencies on external computing resources relative to the beaglebone; the camera must be capable of tracking the object without losing it, considering moderate velocity (if the ball doesn't get further than half the FOV of the camera in one frame).
+The computer vision code must run without dependencies on external computing resources relative to the beaglebone; the camera must be capable of tracking the object without losing it, considering a moderate velocity (if the ball doesn't get further than half the FoV of the camera in one frame).
 
 ### 3.4 Real time    
 The program must send commands to the motor in fixed time intervals that are close or smaller than the camera's FPS, considering the speed of the image processing methods being used.  
@@ -95,11 +96,13 @@ The program must send commands to the motor in fixed time intervals that are clo
 ---
 ## 4. Interfaces
 ### 4.1 Hardware
-### 4.2 User Interface
-
+- Logitech -- Beaglebone: USB 3.0
+- Beaglebone -- EPOT: CNU
+- Beaglebone -- Android Device: **TBD**
+---
 *[TBD]: To Be Defined
 
-[^1]: Thiago Henrique Segreto Silva 9311598
+[^1]: Thiago
 [^2]: Rodrigo
 [^3]: Matheus
 [^4]: Marcelo
