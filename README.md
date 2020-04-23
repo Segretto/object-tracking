@@ -33,7 +33,7 @@
 
 ---
 ## 2. Features
-### 2.1 Vision Module [^1]
+### 2.1 Vision Module [1]
 #### 2.1.1 Description:
 An image processing algorithm that will extract information about the object's shape, color, position and speed.
 
@@ -47,18 +47,22 @@ An image processing algorithm that will extract information about the object's s
 >**FR 1.4** &emsp;Send the position and velocity values to the controller module.
 
 
-### 2.2 Control System Module [^2] 
+### 2.2 Control System Module [2] 
 #### 2.2.1 Description:
-This module will receive the object center position and velocity from the vision module and compute the desired Voltages to control the DC Motors.
+This module will receive the object center position and velocity from the vision module and compute the desired Motor positioning.
 
 #### 2.2.2 Functional Requirements
 >**FR 2.1** &emsp;Receive the objects center posistion and velocity from vision module.
 
->**FR 2.2** &emsp;From pan-tilt adjustments, the beaglebone must ensure that the geometric center of the image is exactly aligned with the center of the camera. This is possible through a proportional-derivative-integrative (PID) control algorithm.
+>**FR 2.2** &emsp;Receive and configure the user defined PID Controller parameters.
 
->**FR 2.3** &emsp;When the camera can no longer observe the object, it returns to the starting position.
+>**FR 2.3** &emsp;Compute DC Motor positions using a proportional-derivative-integrative (PID) control algorithm.
 
-### 2.3 Mechanical System [^3]
+>**FR 2.4** &emsp;Return camera to default position when no data is received from the vision module.
+
+>**FR 2.5** &emsp;Send the desired Motor position to the EPOS Controller.
+
+### 2.3 Mechanical System [3]
 #### 2.3.1 Description:
 A 2 DoF mechanism actuated by two DC motors coupled in a rigid rod mechanism, with a camera attached at one of it´s end.  
 
@@ -67,7 +71,7 @@ A 2 DoF mechanism actuated by two DC motors coupled in a rigid rod mechanism, wi
 
 >**FR 3.2** &emsp;Horizontal rotational actuation.
 
-### 2.4 User Interface **TBD** [^4]
+### 2.4 User Interface **TBD** [4]
 #### 2.4.1 Description:
 An Android application which will display performance metrics of the system in real time. 
 It will also display controller parameters input slots for real time controller configuration.
@@ -102,7 +106,7 @@ The program must send commands to the motor in fixed time intervals that are clo
 ---
 *[TBD]: To Be Defined
 
-[^1]: Thiago
-[^2]: Rodrigo
-[^3]: Matheus
-[^4]: Marcelo
+[1]: Thiago
+[2]: Rodrigo
+[3]: Matheus
+[4]: Marcelo
