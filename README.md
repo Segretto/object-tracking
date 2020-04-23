@@ -106,7 +106,7 @@ The program must send the updated positions to the motor in fixed time intervals
 ---
 *[TBD]: To Be Defined
 
-1. Thiago
-2. Rodrigo
-3. Matheus
-4. Marcelo
+1. Thiago Segreto
+2. Rodrigo Reis
+3. Matheus Henrique
+4. Marcelo Filho
