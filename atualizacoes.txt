@@ -1,0 +1,6 @@
+Diante impedimentos de distanciamento social impostos pelo Covid-19, mudamos nosso projeto 
+para uma versão mais simples e com menos mecanismos, podendo agora ser realizado quase totalmente 
+em modo remoto. Agora nosso projeto resume a um sistema embarcado com uma webcam que lê, em tempo
+real, e reconhece comandos escritos a mão, podendo ligar ou desligar um motor conectado pela Beagle 
+Bone Black. Também pensou-se em fazer uma aplicação em Android que printa os textos lidos e mostra 
+um report do funcionamento do motor.  
