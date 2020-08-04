@@ -1,0 +1,5 @@
+Programa para operação do motor:
+
+Um servo motor operado com PWM que se posiciona nos ângulos desejados de acordo com as instruções.
+Foi escolido um servo motor por contar com uma montagem fácil na BeagleBone Black, sem demais elementos.
+Trata-se de uma montagem hipotética, dado as limitações devidas pela pandemia.
